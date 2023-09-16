@@ -1,6 +1,13 @@
-import React from "react";
-const App = () => {
-  return <h1>React app with Webpack</h1>;
-};
+// project import
+import Routes from "./routes";
+
+
+// ==============================|| APP - THEME, ROUTER, LOCAL  ||============================== //
+
+const App = () => (
+
+    <Routes />
+ 
+);
 
 export default App;
